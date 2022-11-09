@@ -200,7 +200,7 @@ body {
                             .specials {
                                 display: block;
                             }
-                                .testing {
+                                .modal-input {
                                     border: 1px solid rgba(33, 33, 33, 0.2);
                                     border-radius: 4px;
                                     padding: 10px 42px;
@@ -213,8 +213,81 @@ body {
                                     width: 100%;
                                     margin-bottom: 10px;
                                 }
+                                                                .button-mail {
+                                                                    display: flex;
+                                                                    justify-content: center;
+                                                                    align-items: center;
+                                                                    background-color: var(--accent-color);
+                                                                    color: #FFFFFF;
+                                                                    width: 200px;
+                                                                    height: 50px;
+                                                                    box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+                                                                    border-radius: 4px;
+                                                                    border: 0;
+                                                                    font-weight: 700;
+                                                                    font-size: 16px;
+                                                                    line-height: 1.88;
+                                                                    letter-spacing: 0.06em;
+                                                                }
 
-                            
+                                .footer-sub {
+                                    margin-bottom: 20px;
+                                    font-weight: 700;
+                                        font-size: 14px;
+                                        line-height: 1.1428;
+                                        letter-spacing: 0.03em;
+                                        color: var(--primary-white-color);
+                                }
+                                                                input-mail {
+                                                                    background-color: transparent;
+                                                                    color: #FFFFFF;
+                                                                    max-width: 358px;
+                                                                    width: 358px;
+                                                                    height: 50px;
+                                                                    padding: 15px 16px;
+                                                                    border: 1px solid rgba(255, 255, 255, 0.3);
+                                                                    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+                                                                    border-radius: 4px;
+                                                                }
+                                
+                                                                .modal-input {
+                                                                  padding: 12px 30px;
+                                                                    width: 100%;
+                                                                    height: 40px;
+                                
+                                                                    border: 1px solid rgba(33, 33, 33, 0.2);
+                                                                    border-radius: 4px;
+                                                                }
+                                
+                                                                .modal-input:hover {
+                                                                    border: 1px solid #2196F3;
+                                
+                                                                }
+                                
+                                                                .modal-input:focus {
+                                                                    outline: transparent;
+                                                                }
+                                
+                                                                .modal-input:focus-visible {
+                                                                    border: 1px solid #2196F3;
+                                                                }
+                                                                                                .input-mail {
+                                                                                                    background-color: transparent;
+                                                                                                    color: #FFFFFF;
+                                                                                                    max-width: 358px;
+                                                                                                    width: 358px;
+                                                                                                    height: 50px;
+                                                                                                    padding: 15px 16px;
+                                                                                                    border: 1px solid rgba(255, 255, 255, 0.3);
+                                                                                                    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+                                                                                                    border-radius: 4px;
+                                                                                                }
+                                                                                                
+                                                        .test {
+                                                            display: flex;
+                                                            gap: 12px;
+                                                            flex-wrap: wrap;
+                                                        }
 
                                 .textarea {
                                         resize: none;
@@ -291,8 +364,10 @@ body {
                                 }
 
                                 .icon-form:hover {
-                                    color: var(--accent-color);
+                                    fill: var(--accent-color);
                                 }
+
+
            .close-button {
             position: absolute;
             right: 8px;
