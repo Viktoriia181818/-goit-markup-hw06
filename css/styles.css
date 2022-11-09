@@ -243,25 +243,50 @@ body {
                                 text-decoration: underline;
                             }
 
-                            .button-mod {
-                            font-weight: 700;
-                                font-size: 16px;
-                                line-height: 1.875;
-                                display: flex;
-                                text-align: center;
-                                justify-content: center;
-                                letter-spacing: 0.06em;
-                                margin: auto;
-                                color: var(--text-white);
-                                background-color: var(--secondary-color);
-                                padding: 10px 52px;
-                                border-radius: 4px;
-                                border-color: var(--secondary-color);
-                                box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%);
-                                cursor: pointer;
-                                border: hidden;
-                                margin-bottom: 40px;
-                            }
+                                                        .checkbox-label {
+                                                            display: flex;
+                                                            justify-content: center;
+                                                            gap: 8px;
+                                                            margin-bottom: 30px;
+                                                            color: #757575;;
+                                                            font-size: 14px;
+                                                            line-height: 1.71;
+                                                            letter-spacing: 0.03em;
+                            
+                                                        }
+                            
+                            
+                                                        .send-button {
+                                                            background-color: var(--accent-color);
+                                                            color: #FFFFFF;
+                                                            border: 0;
+                            
+                                                            display: block;
+                                                            margin: 0 auto;
+                                                            padding: 10px 52px;
+                            
+                                                            font-weight: 700;
+                                                            font-size: 16px;
+                                                            line-height: 1.88;
+                                                            letter-spacing: 0.06em;
+                            
+                                                            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+                                                            border-radius: 4px;
+                                                        }
+                .modal-label {
+                    position: relative;
+                    margin-bottom: 2px;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 1.1666;
+                    letter-spacing: 0.01em;
+                }
+                                .icon-form {
+                                    position: absolute;
+                                    z-index: 50;
+                                    top: 26px;
+                                    left: 6px;
+                                }
            .close-button {
             position: absolute;
             right: 8px;
