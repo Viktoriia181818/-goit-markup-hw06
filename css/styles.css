@@ -289,6 +289,10 @@ body {
                                     top: 26px;
                                     left: 6px;
                                 }
+
+                                .icon-form:hover {
+                                    color: var(--accent-color);
+                                }
            .close-button {
             position: absolute;
             right: 8px;
