@@ -405,7 +405,7 @@ body {
      display: flex;
      margin-left: auto;
  }
-  #contacts {
+  .contacts {
     margin-left: 215px;
   }
  .contact .item:not(:last-child) {
@@ -748,7 +748,7 @@ body {
           .footer-social-link {
             fill: currentColor;     
           }
-        .footer .container {
+        .container {
               display: flex;
           }
     
