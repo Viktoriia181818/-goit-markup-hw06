@@ -739,7 +739,7 @@ body {
            
                 
           .footer {
-            display: flex ;
+            
             justify-content: center;
             background-color: #2F303A;
             padding: 60px 0;
@@ -748,7 +748,7 @@ body {
           .footer-social-link {
             fill: currentColor;     
           }
-        .container {
+        .footer .container {
               display: flex;
           }
     
