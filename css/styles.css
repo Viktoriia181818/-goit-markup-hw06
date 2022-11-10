@@ -405,7 +405,9 @@ body {
      display: flex;
      margin-left: auto;
  }
-
+  #contacts {
+    margin-left: 215px;
+  }
  .contact .item:not(:last-child) {
      margin-right: 50px;
  }
@@ -738,7 +740,6 @@ body {
                 
           .footer {
             display: flex ;
-            align-items: center;
             justify-content: center;
             background-color: #2F303A;
             padding: 60px 0;
@@ -812,6 +813,7 @@ body {
     
           .social {
               margin-left: 70px;
+              margin-right: 93px;
           }
     
           .social-title {
@@ -944,6 +946,7 @@ margin-left: 10px;
         }
   
   .form {
+    width: 100%;
     margin-left: auto;
   }
 
