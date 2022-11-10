@@ -345,11 +345,13 @@
         <label class="modal-label" for="comit">
             Коментар
             <textarea class="textarea" placeholder="Введіть текст" name="textarea" id="textarea" cols="30" rows="10"></textarea>
-        <label class="checkbox-label" for="checkbox">
-            <input class="checkbox" type="checkbox" name="checkbox" id="checkbox" />
-            <p>Погоджуюся з розсилкою та приймаю 
-                <a class="link-modal" href="#">Умови договору</a></p>
-            </label>
+            <div class="privacy">
+            <input type="checkbox" name="link-modal" id="link-modal">
+            <label for="link-modal">Погоджуюся з розсилкою там приймаю</label>
+            <a href="#" class="support" target="_blank" rel="noopener noreferrer">Умови договору</a>
+            </div>
+            
+            
             <button class="send-button" type="submit">Відправити</button>
         </form>
         </div>

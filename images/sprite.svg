@@ -20,6 +20,9 @@
 <path fill="#afb1b8" style="fill: var(--color1, #afb1b8)" d="M9.948 1.686l18.104 4.44-7.699 6.649-18.106-4.442 7.702-6.647zM9.605 0.545l-9.605 8.292 20.696 5.076 9.603-8.292-20.694-5.076z"></path>
 <path fill="#afb1b8" style="fill: var(--color1, #afb1b8)" d="M21.861 30.776l8.438-7.287-8.438-2.071v9.358z"></path>
 </symbol>
+<symbol id="icon-checkbox" viewBox="0 0 42 32">
+<path fill="#fff" style="fill: var(--color1, #fff); stroke: var(--color1, #fff)" stroke="#fff" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.64" d="M6.263 15.205l-0.22-0.21-3.307 3.132 11.651 11.114 24.477-23.351-3.285-3.134-21.192 20.197-8.124-7.75z"></path>
+</symbol>
 <symbol id="icon-iconsend" viewBox="0 0 32 32">
 <path fill="#fff" style="fill: var(--color1, #fff)" d="M32 0l-32 18 10.227 3.788 15.773-14.788-11.998 16.186 0.010 0.004-0.012-0.004v8.814l5.735-6.691 7.265 2.691 5-28z"></path>
 </symbol>
