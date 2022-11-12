@@ -431,7 +431,8 @@ border-color: var(--accent-color);
     letter-spacing: 0.01em;
 }
 
-.icon-close:hover {
+.icon-close:hover,
+.icon-close:focus {
     fill: var(--accent-color);
 }
 .icon-form {
