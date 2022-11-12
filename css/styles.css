@@ -745,9 +745,6 @@ border-color: var(--accent-color);
     background-color: #F5F4FA;
 }
 
-.team .item:not(:last-child) {
-    margin-right: 30px;
-}
 
 .team .item {
     background-color: #FFFFFF;
@@ -784,7 +781,7 @@ border-color: var(--accent-color);
     color: #757575;
     font-weight: 400;
     padding-top: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 16px;
     font-size: 16px;
     line-height: 1.1875;
     text-align: center;
@@ -851,6 +848,7 @@ border-color: var(--accent-color);
 
 .footer .container {
     display: flex;
+    align-items: baseline;
 }
 
 .footer .logo {
@@ -1014,8 +1012,8 @@ border-color: var(--accent-color);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.opacity:hover .opacity-text,
-.opacity:focus .opacity-text {
+.item-port:hover .opacity-text,
+.item-port:focus .opacity-text {
     transform: translateX(0%);
 }
 
