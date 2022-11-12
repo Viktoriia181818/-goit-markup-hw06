@@ -431,8 +431,10 @@ border-color: var(--accent-color);
     letter-spacing: 0.01em;
 }
 
+
 .icon-close:hover,
 .icon-close:focus {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     fill: var(--accent-color);
 }
 .icon-form {
